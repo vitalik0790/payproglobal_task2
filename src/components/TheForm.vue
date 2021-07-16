@@ -792,9 +792,12 @@
                 id="coupon-code"
                 class="form-control-sm"
                 name="coupon-code-to-add"
+                v-model="couponField"
               />
               <span class="coupon-btn">
-                <button class="btn" type="submit">Применить</button>
+                <button @click="clickOnCoupon" class="btn" type="button">
+                  Применить
+                </button>
               </span>
             </div>
           </div>
@@ -888,6 +891,7 @@ export default {
       securityCode: "612",
       payPalEmail: "",
       coupon: false,
+      couponField: "",
       formIsValid: true,
     };
   },
@@ -916,6 +920,10 @@ export default {
   },
 
   methods: {
+    clickOnCoupon() {
+      this.couponField = "";
+      this.coupon = false;
+    },
     confirmError() {
       this.formIsValid = true;
     },
