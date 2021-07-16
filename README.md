@@ -1,24 +1,6 @@
-# payproglobal_task3
+# payproglobal_task2
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+To run the App you need:
+1. Download the repository.
+2. Open the terminal and run "npm install".
+3. Open your live server "npm run serve".
