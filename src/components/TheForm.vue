@@ -2,7 +2,7 @@
   <div class="container">
     <base-dialog v-if="!formIsValid">
       <template #header>
-        <h3>Заполните все обязательные поля.</h3>
+        <h3>Заполните все обязательные поля</h3>
       </template>
       <template #default>
         <p>Пожалуйста, убедитесь, что вы ввели все данные правильно!</p>
